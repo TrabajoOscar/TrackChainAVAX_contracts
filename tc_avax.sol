@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity ^0.8.4;
+pragma solidity 0.8.24;
 
 contract tc_avax {
 
@@ -45,6 +45,7 @@ contract tc_avax {
         owner = payable(msg.sender);
     }
 
+    // Chage state in log
     function pushData(string memory _date,
                       string memory _delivery_date,
                       string memory _product,
@@ -74,11 +75,9 @@ contract tc_avax {
 
     // Function to withdraw funds to the owner address
     function withdraw() public onlyOwner {
-        // Check if there are funds in the contract
         uint balance = address(this).balance;
         require(balance > 0, "No funds to withdraw");
-
-        // Transfer the balance to the owner
+        
         (bool success, ) = owner.call{value: balance}("");
         require(success, "Transfer failed");
     }

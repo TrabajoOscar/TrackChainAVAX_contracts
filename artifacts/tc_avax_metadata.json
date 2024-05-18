@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.25+commit.b61c2a91"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -205,7 +205,7 @@
 		"compilationTarget": {
 			"tc_avax.sol": "tc_avax"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -218,11 +218,11 @@
 	},
 	"sources": {
 		"tc_avax.sol": {
-			"keccak256": "0x815b8232e47c6e68366b40b7ebf3c217992cfba008539110d1333647220df65b",
+			"keccak256": "0x3eae66975b10207797b2bd4419596aaa626a42f879205e6dbf624d6e398d5456",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6deb5f9db7ab3b8d836906d6d17a01bc034f35a89d0a8bdb9fc376987ce39317",
-				"dweb:/ipfs/QmYUHgRvJ5zLBebZBAfokFkuRoYAqVZFEsRwgJdAJuo2Sf"
+				"bzz-raw://7ca1deebd4e91c56c4ebebb139cb9ff254dd8138a746629ef80658a906427cbe",
+				"dweb:/ipfs/QmbAKQ93X6Mg891SxVxdsgdM2UXCNW7UtJp7FTAcoe5PYd"
 			]
 		}
 	},
