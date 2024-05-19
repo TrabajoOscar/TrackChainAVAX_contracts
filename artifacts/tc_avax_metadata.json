@@ -211,18 +211,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"tc_avax.sol": {
-			"keccak256": "0x3eae66975b10207797b2bd4419596aaa626a42f879205e6dbf624d6e398d5456",
+			"keccak256": "0x390d0effd5fc2bf5622ef7cdd2bd32c7ac9b2d8eb3e0bece5c4fc91bd116be8a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7ca1deebd4e91c56c4ebebb139cb9ff254dd8138a746629ef80658a906427cbe",
-				"dweb:/ipfs/QmbAKQ93X6Mg891SxVxdsgdM2UXCNW7UtJp7FTAcoe5PYd"
+				"bzz-raw://e13af16e0543dd4f37c1830aff0fa3594bbf82ce7112502e67cc1fe3fff30fdd",
+				"dweb:/ipfs/QmU7NvF9SHK9E3SzmjAVuijfqTGv53J69ZsA1Czh4GX61p"
 			]
 		}
 	},
