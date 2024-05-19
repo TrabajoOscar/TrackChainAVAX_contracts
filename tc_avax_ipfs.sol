@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: GPL-3.0
-// 0x185827a4A0b78C81a3a16eE02c5D992c3b3b4f1b
+// SPDX-License-Identifier: MIT
+
 pragma solidity 0.8.24;
 
 contract tc_avax {
